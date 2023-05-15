@@ -10,6 +10,7 @@ const AppWrap = (Component, idName, classNames) => function HigherOrderComponent
             <Component/>
             <div className='copyright'>
                 <a className='p-text' href='https://github.com/MatinJiridity'>my git</a>
+                <a className='p-text' href='https://app.enhancv.com/share/d8ef5d29/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic'>my resume</a>
             </div>
         </div>  
         <NavigationDots active={idName}/>  
