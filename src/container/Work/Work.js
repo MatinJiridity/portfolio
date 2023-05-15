@@ -8,9 +8,11 @@ import images from '../../constants/images';
 
 const Work = () => {
   const works = [
-    { title: 'BlockChain Development', describtion: 'A Blockchain Platfoem', url: images.eth, projectUrl: '', codeUrl: '', tag: 'BlockChain', },
-    { title: 'Frontend Development', describtion: 'A Modern UI/UX Web.', url: images.about01, projectUrl: '', codeUrl: '', tag: 'React js', },
-    { title: 'UI/UX Development', describtion: 'A Modern UI/UX Web.', url: images.about02, projectUrl: '', codeUrl: '', tag: 'UI/UX', },
+    { title: 'UI/UX Development', describtion: 'Responsive Restaurant Website with Modern UI and UX in ReactJS', url: images.restruant, projectUrl: 'https://modern-ui-ux-project2.onrender.com/', codeUrl: 'https://github.com/MatinJiridity/Modern-UI-UX', tag: 'UI/UX', },
+    { title: 'BlockChain Development', describtion: 'Decentralized Online Voting System using Blockchain', url: images.devoting, projectUrl: 'https://devoting-budget-v1.onrender.com ', codeUrl: 'https://github.com/MatinJiridity/devoting.budget-v1', tag: 'BlockChain', },
+    { title: 'UI/UX Development', describtion: 'Responsive Modern UI/UX Website in React JS', url: images.gpt3, projectUrl: 'https://modern-ui-ux-project.onrender.com/ ', codeUrl: 'https://github.com/MatinJiridity/Modern-UI-UX-Website-in-React-JS', tag: 'UI/UX', },
+    { title: 'Frontend Development', describtion: 'A React and Redux Toolkit.', url: images.cryptoverse, projectUrl:  'https://cryptoverse-azx9.onrender.com/', codeUrl: 'https://github.com/MatinJiridity/cryptoverse', tag: 'React js', },
+    { title: 'Frontend Development', describtion: 'My Portfolio.', url: images.portfolio, projectUrl: 'https://matinjiri.onrender.com/', codeUrl: 'https://github.com/MatinJiridity/portfolio', tag: 'Frontend', },
   ]
   const [activeFilter, setActiveFilter] = useState('All');
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });

@@ -11,6 +11,11 @@ const Skills = () => {
     { name: 'React', bgColor: '#edf2f8', icon: images.react },
     { name: 'Web3', bgColor: '#edf2f8', icon: images.web3 },
     { name: 'Redux', bgColor: '#edf2f8', icon: images.redux },
+    { name: 'Solidity', bgColor: '#edf2f8', icon: images.sol },
+    { name: 'HTML', bgColor: '#edf2f8', icon: images.html },
+    { name: 'SASS', bgColor: '#edf2f8', icon: images.sass },
+    { name: 'Git', bgColor: '#edf2f8', icon: images.git },
+    { name: 'JS', bgColor: '#edf2f8', icon: images.javascript },
     { name: 'Node', bgColor: '#edf2f8', icon: images.node },
   ];
 

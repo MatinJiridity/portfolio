@@ -40,8 +40,20 @@ import matinlogo from '../assets/matinLogo.png';
 import sol from '../assets/sol.png';
 import eth from '../assets/eth.png';
 import web3 from '../assets/web3.png';
+import gpt3 from '../assets/gpt3.png';
+import cryptoverse from '../assets/Cryptoverse .png';
+import devoting from '../assets/devoting.png';
+import portfolio from '../assets/portfolio.png';
+import restruant from '../assets/restrant.png';
+
+
 
 export default {
+  gpt3,
+  cryptoverse,
+  devoting,
+  portfolio,
+  restruant,
   email,
   mobile,
   api,
